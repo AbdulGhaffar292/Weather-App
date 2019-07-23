@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.mainSection{
+  background-color: dodgerblue;
+  width: 100%;
+  height: 500px;
+}
+
+.infoSection{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:baseline;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.generalWeatherInfo{
+  width: 100%;
+  height: 150px;
+  background-color: lightgray;
+  
+}
+
+.detailWeatherInfo{
+  width: 100%;
+  height: 150px;
+  background-color: antiquewhite;
+  display:none;
+  
+}
+
+.dailyWeatherInfo{
+  width: 100%;
+  height: auto;
+  background-color:aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px){
+  .generalWeatherInfo{
+    width: 50%;
+    
+  }
+
+  .detailWeatherInfo{
+    display: block;
+    width: 50%;
+    display: flex;
+
+    
+  }
+
+.weather{
+  width: 100%;
+}
+
+  
+}
